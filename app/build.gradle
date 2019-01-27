@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdkVersion 18
+    compileSdkVersion 27
     buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.nordicsemi.nrfUARTv2"
         minSdkVersion 18
-        targetSdkVersion 18
+        targetSdkVersion 27
     }
 
 
@@ -19,5 +19,5 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:23.0.0'
+    implementation 'com.android.support:support-v4:27.1.1'
 }
